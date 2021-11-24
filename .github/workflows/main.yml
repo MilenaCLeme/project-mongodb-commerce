@@ -80,7 +80,7 @@ jobs:
         uses: actions/checkout@v2
         with:
           repository: betrybe/mongodb-query-evaluator-action
-          ref: v5.1
+          ref: debug-false-positive
           token: ${{ secrets.GIT_HUB_PAT }}
           path: .github/actions/mongodb-query-evaluator
 
